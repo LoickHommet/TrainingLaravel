@@ -29,6 +29,8 @@ Changer le champ DB_DATABASE dans le fichier .env avec votre configuration Mysql
 
 Utiliser de la commande php artisan migrate pour créer la base de données.
 
+Il n'y a pas de systeme d'inscription donc il faut vous creer un compte dans la dbb.
+
 Exécuté la commande php artisan db:seed pour remplir la base de données.
 
 ## Schema
