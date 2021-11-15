@@ -15,13 +15,22 @@ Vérifier si on a php sur notre systeme avec la comande php --version
 Vérifier si on Mysql sur notre systeme
 Vérifier su on a composer d'installer sur votre sysmtet avec la commande composer --version
 
-## Inalation
+## Inisialisation
 
-Ouvrir votre terminal dans le dosser dans lequel vous initialiser votre projet.
+Ouvrir votre terminal dans le dossier dans lequel vous initialiser votre projet.
+
 Utiliser la commande composer install pour récupérer tous kes dépendances. 
+
 Dans le cas ou le fichier .env na pas été créer il a un exemple nommer .envexemple, puis exécutez la commande: php artisan key:generate.
+
 Vous devenz créer une base de donnée au nom suivant : training_laravel.
+
 Changer le champ DB_DATABASE dans le fichier .env avec votre configuration Mysql
+
 Utiliser de la commande php artisan migrate pour créer la base de données.
 
 Exécuté la commande php artisan db:seed pour remplir la base de données.
+
+## Schema
+![image](https://user-images.githubusercontent.com/59056586/141776115-0ccebbac-b286-405b-9d80-f43b27669a2c.png)
+
